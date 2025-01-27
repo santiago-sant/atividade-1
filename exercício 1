@@ -1,0 +1,12 @@
+using System;
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Digite um número inteiro:");
+        string numerostr = Console.ReadLine();
+        int numeroInt = int.Parse(numerostr);
+        Console.WriteLine("Seu número é: " + numeroInt);
+    }
+}
