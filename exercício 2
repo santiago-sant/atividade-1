@@ -1,0 +1,12 @@
+using System;
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Digite um número real:");
+        string numerostr = Console.ReadLine();
+        double numeroVar = double.Parse(numerostr);
+        Console.WriteLine("Seu número é: " + numeroVar);
+    }
+}
