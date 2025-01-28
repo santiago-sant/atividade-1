@@ -1,0 +1,16 @@
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Digite uma palavra:");
+
+        string palavra = Console.ReadLine();
+
+        int tamanho = palavra.Length;
+
+        Console.WriteLine("A palavra que você digitou tem " + tamanho + " caracteres.");
+
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
