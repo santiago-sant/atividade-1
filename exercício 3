@@ -1,0 +1,13 @@
+
+using System;
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Digite um número :");
+        string numerostr = Console.ReadLine();
+        float numeroFlo = float.Parse(numerostr);
+        Console.WriteLine("Seu número é: " + numeroFlo);
+    }
+}
