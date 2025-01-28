@@ -1,0 +1,19 @@
+class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+        Console.WriteLine("Digite seu nome :");
+          string entradaNome = Console.ReadLine();
+          Console.WriteLine ("Digite sua idade :");
+          string entradaIdade= Console.ReadLine();
+			 int idade = Convert.ToInt32(entradaIdade);
+
+        	Console.WriteLine (" O seu nome é " + entradaNome + " e sua idade é " + entradaIdade + " anos.");
+      
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+
+
+		}
+	}
