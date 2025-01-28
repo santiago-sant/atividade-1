@@ -1,0 +1,21 @@
+class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+        Console.WriteLine("Informe o preço do produto :");
+        
+          		string entradaPreco = Console.ReadLine();
+          		double preco = Convert.ToDouble(entradaPreco);
+        Console.WriteLine ("Informe a promoção :");
+        		string entradaPromo= Console.ReadLine();
+					double promo = Convert.ToDouble(entradaPromo);
+					double produto  = (preco * promo) / 100;
+						Console.WriteLine ("O preço do produto com desconto é :" + produto);
+      
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+
+
+		}
+	}
